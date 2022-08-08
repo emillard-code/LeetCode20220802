@@ -1,9 +1,6 @@
 package com.project.attempt;
 
-import org.apache.commons.lang3.ArrayUtils;
-
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 
 public class LeetCodeApp {
@@ -24,7 +21,7 @@ public class LeetCodeApp {
 
         ArrayList<Integer> newMatrix = new ArrayList<Integer>();
 
-        for (int numberArr[] : matrix) {
+        for (int[] numberArr : matrix) {
             for (int number : numberArr) {
                 newMatrix.add(number);
             }
